@@ -1092,3 +1092,49 @@ console.log(testElseIf(7));
 // }
 
 
+// if(condition)
+
+
+//Check the given age is eligible for voting.//
+
+// function votingAge() {
+//         let age = prompt("enter your age:");
+//         age = Number(age);
+
+//         if(age < 18) {
+//                 return ("not eligible for voting");
+//         }else {
+//                 return (" eligible for voting");
+//         }
+//     }
+        
+//     votingAge();
+   
+
+// function votingEligibility() {
+//         let age = prompt("Please enter your age:"); 
+//         age = Number(age); 
+    
+//         if (age < 18) {
+//             return ("You are too young to vote.");
+//         } else {
+//             return ("You are eligible to vote!");  
+//         }
+//     }
+    
+    
+//     votingEligibility();
+
+
+function votingEligibilty() {
+        let age = prompt("enter your age:");
+        age = Number(age);
+
+        if(age>=18){
+                return ("your eligible for vote !");
+        } else{
+                return ("your not eligible for vote");
+        }
+}
+
+console.log(votingEligibilty());
