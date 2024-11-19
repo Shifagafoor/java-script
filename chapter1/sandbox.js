@@ -27,7 +27,8 @@
 // const points = 100;
 // console.log(points)
 
-// var score = 75;
+// var score = 75;pppppp
+
 // console.log(score)
 
 
@@ -1138,3 +1139,7 @@ function votingEligibilty() {
 }
 
 console.log(votingEligibilty());
+
+
+
+
