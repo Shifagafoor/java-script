@@ -1142,4 +1142,28 @@ console.log(votingEligibilty());
 
 
 
+// string
+
+// character array declaration is called array
+// string means %s 
+
+// name =["shifa"];
+// example:
+
+// int(main){
+//         char name[20];
+//         printf("enter name :");
+//         Scanf("%s, name");
+//         printf(entered a name:)
+// }
+
+
+// multi dimentional array
+
+// int a[3][3];
+// for(i=0; i<3; i++){
+// for(i=0; j<3; j++){
+//         Scanf("%d", & a[i][j]);
+// }
+// }
 
