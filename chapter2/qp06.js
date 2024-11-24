@@ -40,3 +40,4 @@ console.log(isIdentityMatrix(matrix2));
     let result = [true, false]
    }
 
+
