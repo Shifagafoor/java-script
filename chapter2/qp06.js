@@ -39,5 +39,11 @@ console.log(isIdentityMatrix(matrix2));
     let input2 = [[0, 1, 0] , [1, 1, 1] , [1, 1, 1,]]
     let result = [true, false]
    }
+   
+
+
+
+    
+
 
 
