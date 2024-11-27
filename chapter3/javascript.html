@@ -1,4 +1,4 @@
-<p id= "one">
+<!-- <p id= "one">
     Hello
 </p>
 
@@ -9,4 +9,49 @@
     //select paragraph tag using id
     var subtitle = document.getElementById("subtitle"). textContent;
     console.log(subtitle)
-</script>
+</script> -->
+
+    <!-- <h1 id="title">
+        Hello world
+    </h1>
+    <button onclick=" change()">change</button>
+
+    <script>
+        var head = document.getElementById("title")
+        console.log(head.textContent)
+
+
+        function change() {
+            head.textContent = "Bye world"
+        }
+
+    </script> -->
+
+    <input id="num1" value="50">
+    <input id="num2" value="40">
+
+    <button onclick="resultfunction()">add</button>
+
+    <p id="result">result:</p>
+
+    <script>
+        //selecting input box 1
+        //selecting input box 2
+
+        var box1 = document.getElementById("num1")
+        var box2 = document.getElementById("num2")
+
+        //selecting result:
+        var result = document.getElementById("result")
+    
+        var box1value = Number(box1.value)
+        var box2value = Number(box2.value)
+
+        var total = box1value+box2value
+
+
+        function resultfunction() {
+
+            result.textContent=total
+        }
+    </script>

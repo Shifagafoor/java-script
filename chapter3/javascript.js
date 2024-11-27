@@ -580,3 +580,70 @@ of a webpages document object model(DOM) using scripting languages like javascri
 can add, remove , or modify elements, attributes , and text within the DOM to create dynamic and 
 interactive web application. this allows webpages to respond to uswer interaction, update content 
 dynamically , and provide a more engaging user experience
+
+selecting manipulating Element using ID
+
+what is document.getElementById()?
+
+it is a method the document object model(DOM) that allows you to select a single element from the 
+document using its unique ID using attributes>
+ID should be unique within the document , meaning that there should be only one element with a specific 
+ID. if multiple elements have the same ID , this method will only one element with a specific ID.
+if multiple element have the same ID, this method will only select the first one it encounters.
+
+<h1 id="title">
+    Hello world
+</h1>
+
+<script>
+    // selecting h1 tag
+    var head = document.getElementById("title")
+    console.log(head.textContent)
+    head.textContent = "Bye world"
+
+</script>
+
+what is event and event handlers?
+
+an event in javascript in an action or occurence that happens within a webpage , such as users 
+interaction(clicking a button) or page loading.
+
+an event hangler in javascript is a function that responds to an event when it occurs . it listens for 
+specific events and executes code to perform action based on those events creating interactive and 
+dynmic web applications
+
+example coding:
+
+<h1 id="title">
+Hello world
+</h1>
+<button onclick=" change()">change</button>
+
+<script>
+var head = document.getElementById("title")
+console.log(head.textContent)
+
+
+function change() {
+    head.textContent = "Bye world"
+}
+
+</script>
+
+different types of events:
+
+events                          description
+
+onchange                        an HTML element has been changed
+onclick                         the use clicks an HTML element 
+onmouseover                     the user moves the mouse over an HTML element
+onmouseout                      the user moves the mouse away from an HTML element
+onkeydown                       the user pushes a keyboard key
+onload                          the browser has finished loading the page.
+
+
+input tag means it will take . value will be manipulate
+h1 p tags will be take .textContent will be manipulate
+
+
+excercise :
