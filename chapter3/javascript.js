@@ -403,7 +403,7 @@ if(true) {
 }else{
     console.log("else is working")
 }
-hhhhhhhhhhhhhhgggggggttttttttttttttttttiuu
+
 1.is it rainning outside?
  -if the answer is "yes" print "take an umbrella"
  -if the answer is "no" print "enjoy the sunshine"
@@ -573,3 +573,10 @@ else if(score > 70){
         console.log(i);
     }
 }
+what is Dom manipulation ?
+
+dom manipulation refers to the process of programmatically modifying the content, structure , of style 
+of a webpages document object model(DOM) using scripting languages like javascript . developers 
+can add, remove , or modify elements, attributes , and text within the DOM to create dynamic and 
+interactive web application. this allows webpages to respond to uswer interaction, update content 
+dynamically , and provide a more engaging user experience
