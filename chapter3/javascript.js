@@ -54,7 +54,7 @@ function b() {
 
 
 variables
-are containers for solving informstion or Data
+9are containers for solving informstion or Data
 
 example :
 
@@ -645,5 +645,3 @@ onload                          the browser has finished loading the page.
 input tag means it will take . value will be manipulate
 h1 p tags will be take .textContent will be manipulate
 
-
-excercise :

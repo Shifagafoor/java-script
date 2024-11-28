@@ -17,9 +17,3 @@ if(perfectNumber(Number)) {
 } else {
     console.log(`${Number} is not a perfect number `);
 }
-
-// test case
-
-function test() {
-    
-}
