@@ -645,7 +645,7 @@ onload                          the browser has finished loading the page.
 input tag means it will take . value will be manipulate
 h1 p tags will be take .textContent will be manipulate
 
-<input id="num1" >
+{/* <input id="num1" >
 <input id="num2" >
 
 <button onclick="resultfunction()">Add</button>
@@ -662,7 +662,7 @@ h1 p tags will be take .textContent will be manipulate
         var result = document.getElementById("result");
         result.textContent = "Result: " + total; 
     }
-</script>
+</script>  */}
 
 
 
@@ -679,6 +679,8 @@ multiply the nuber with 10 to get the while number
 3.1959621491940426
 
 
+* Math.random
+
 var a = Math.random()
 
 console.log(a)
@@ -691,4 +693,43 @@ var a = Math.random()
 
 console.log(a*10)
 
-thsi will show the result as
+thsi will show the result as 1.0 to 1.9
+
+* Math.floor()
+
+var b=Math.floor(6.77)
+
+console.log(b)
+
+by this math floor it will generate the an problems and the result will be the first num
+
+example:
+
+if we give the output as 0.77 and the output is 0
+
+if we give the output as 7.99 and the output is 7
+
+if we compained the number as the example code:
+
+example code:
+
+var a = Math.random()
+
+console.log(Math.floor(a*10)+1)
+
+Math.floor() is used to round down a given number tothe nearest integer that is less than or equal
+to the original number. it effectivly removes the decimal part of the number.
+
+example :
+
+console.log(math.floor(2.5))  output 2
+
+we are going to use math.random() and math.floor() together to generate a random number between 1 to 10
+
+//return a random integer from 1 to 10:
+
+math.floor(math.random () *10) +1;
+
+// project...guess the number from 1 to 10
+
+
