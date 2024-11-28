@@ -645,3 +645,50 @@ onload                          the browser has finished loading the page.
 input tag means it will take . value will be manipulate
 h1 p tags will be take .textContent will be manipulate
 
+<input id="num1" >
+<input id="num2" >
+
+<button onclick="resultfunction()">Add</button>
+
+<p id="result">Result:</p>
+
+<script>
+    function resultfunction() {
+        var box1value = Number(document.getElementById("num1").value);
+        var box2value = Number(document.getElementById("num2").value);
+        
+        var total = box1value + box2value;
+        
+        var result = document.getElementById("result");
+        result.textContent = "Result: " + total; 
+    }
+</script>
+
+
+
+
+how to create random number in javascript:
+
+math.random() returns a random number betweeen 0 (include) and 1 (excluded) :
+
+example:
+console.log(math.random())
+0.3195962149194026
+
+multiply the nuber with 10 to get the while number
+3.1959621491940426
+
+
+var a = Math.random()
+
+console.log(a)
+
+Math.random means it will show the number up to 0.0..........0.9
+
+if we add a*10 in to tha e program
+
+var a = Math.random()
+
+console.log(a*10)
+
+thsi will show the result as
