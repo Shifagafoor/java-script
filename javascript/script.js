@@ -41,8 +41,16 @@
 // console.log(y)
 
 
+// function myFunction() {
+//     let a = 10;
+//     let b =15;
+//     let c = a + b;
+//     console.log(c)
+// }
+// myFunction()
+
 function myFunction() {
-    let a = 5
-    console.log(a)
+    
 }
-myFunction()
+
+jdksfjdfkfdjkfsdfjdfjdksfjsdfkdfhdjfhdshfdksfhdsfhdskfsdfhdsfhdjfdsfsdfdshfhfhfhfhfhfhfhfhfhfhfhfhdhhfhfhfhfhfhfhfhffhfhfhfhfhfhfhfhfhfhfhhfhfh
