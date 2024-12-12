@@ -49,8 +49,52 @@
 // }
 // myFunction()
 
-function myFunction() {
-    
-}
 
-jdksfjdfkfdjkfsdfjdfjdksfjsdfkdfhdjfhdshfdksfhdsfhdskfsdfhdsfhdjfdsfsdfdshfhfhfhfhfhfhfhfhfhfhfhfhdhhfhfhfhfhfhfhfhffhfhfhfhfhfhfhfhfhfhfhhfhfh
+// function myFunction() {
+//     let a =5;
+
+//     return a;
+// }
+
+// function myFunctionTwo() {
+
+//     console.log("completed")
+// }
+
+// console.log(myFunction());
+
+// myFunctionTwo();
+
+
+// passing parameters()
+
+// function myFunc(n) {
+//     let a = 5;
+//     let b = n;
+//     let c = a + b;
+
+//     return c;
+// }
+
+// myFunc = (c) => {
+//     return c;
+// };
+
+// console.log(myFunc(20));
+
+//objects
+
+// let firstName = "john"
+// let lastName = "doe"
+
+// let user = {
+//     firstName : "john",
+//     lastName : "doe"
+// };
+// console.log(user)
+
+//Array
+
+let myArray = ["1","2","3","4"]
+
+console.log(myArray);

@@ -1,0 +1,130 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blinking circle Pyramid</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000; 
+            color: white;
+            overflow: hidden;
+        }
+        .pyramid {
+            text-align: center;
+            font-family: monospace; 
+            font-size: 2rem;
+        }
+        .circle {
+            display: inline-block;
+            animation: blink 1.5s infinite;
+            color: rebeccapurple;
+        }
+        
+        @keyframes blink {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.2;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="pyramid"></div>
+    <script>
+        
+        const pyramidContainer = document.querySelector('.pyramid');
+        const pyramidHeight = 10; 
+        
+        for (let i = 1; i <= pyramidHeight; i++) {
+            const row = document.createElement('div');
+            for (let j = 0; j < i; j++) {
+                const circle = document.createElement('span');
+                circle.className = 'circle';
+                circle.textContent = 'o'; 
+                circle.style.animationDelay = `${Math.random()}s`;
+                row.appendChild(circle);
+            }
+            pyramidContainer.appendChild(row);
+        }
+    </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blinking Circle Pyramid</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000; 
+            color: white;
+            overflow: hidden;
+        }
+        .pyramid {
+            text-align: center;
+            font-family: monospace; 
+            font-size: 2rem;
+        }
+        .circle {
+            display: inline-block;
+            animation: blink 1.5s infinite;
+        }
+        
+        @keyframes blink {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.2;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="pyramid"></div>
+    <script>
+        const pyramidContainer = document.querySelector('.pyramid');
+        const pyramidHeight = 10; 
+
+        function getRandomColor() {
+            const letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+        for (let i = 1; i <= pyramidHeight; i++) {
+            const row = document.createElement('div');
+            for (let j = 0; j < i; j++) {
+                const circle = document.createElement('span');
+                circle.className = 'circle';
+                circle.textContent = 'o'; 
+                circle.style.color = getRandomColor(); 
+                circle.style.animationDelay = `${Math.random()}s`;
+                row.appendChild(circle);
+            }
+            pyramidContainer.appendChild(row);
+        }
+    </script>
+</body>
+</html>
+
+
+
